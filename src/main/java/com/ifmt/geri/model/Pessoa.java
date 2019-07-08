@@ -72,4 +72,9 @@ public class Pessoa {
         result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
         return result;
     }
+
+	public boolean isInativo() {
+		
+		return false;
+	}
 }
